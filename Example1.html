@@ -18,9 +18,9 @@ input:focus, textarea:focus {
 }
 .paypal-container {
     width: 500px;
-    margin: 0 auto; /* Center align the container */
+    margin: 0 auto;
 }
-p{
+p {
     text-align:center;
     margin-top:60px;
     font-size:30px;
@@ -31,20 +31,18 @@ p{
 <body>
 
 <div class="paypal-container">
-
-    <p>PayPal Payment using JavaScript</p>
-
+  <p>PayPal Payment using JavaScript</p>
   <input type="number" min="1" placeholder="Amount US $" id="amount" />
   <textarea rows="10" placeholder="Description (Optional)" id="description"></textarea>
   <div id="paypal-buttons"></div>
 </div>
 
-<script src="https://www.paypal.com/sdk/js?client-id=*********************************"></script>
+<script src="https://www.paypal.com/sdk/js?client-id=********************************************"></script>
 <script>
     paypal.Buttons({
       createOrder: function(data, actions) {
-        var amount = document.getElementById('amount').value;
-        var description = document.getElementById('description').value;
+        var amount = document.getElementById('amount').value; // Retrieve the amount value
+        var description = document.getElementById('description').value; // Retrieve the description value
         if (amount < 1) {
           alert("Please enter a valid amount");
           throw new Error("Invalid amount.");
