@@ -8,6 +8,8 @@
 
 
 
+## Screenshots
+![]([https://github.com/codehafeez/JavaScript-Payment-PayPal/blob/main/Output.png)
 
 
 ## 🔗 www.codehafeez.com
