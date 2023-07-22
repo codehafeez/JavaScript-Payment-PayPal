@@ -10,6 +10,9 @@
 ## Screenshots
 ![](https://github.com/codehafeez/JavaScript-Payment-PayPal/blob/main/Example1-Output.png)
 ![](https://github.com/codehafeez/JavaScript-Payment-PayPal/blob/main/Example2-Output.png)
+![](https://github.com/codehafeez/JavaScript-Payment-PayPal/blob/main/Output1.png)
+![](https://github.com/codehafeez/JavaScript-Payment-PayPal/blob/main/Output2.png)
+![](https://github.com/codehafeez/JavaScript-Payment-PayPal/blob/main/Output3.png)
 
 
 ## 🔗 www.codehafeez.com
